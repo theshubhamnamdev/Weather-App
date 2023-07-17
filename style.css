@@ -223,3 +223,19 @@ body {
 .weather{
     display: none;
 }
+@media(max-width: 480px){
+    .search{
+        width: 95%;
+        border: 1px solid red;
+    }
+    .search input{
+        width: 70%;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .col img{
+        margin-bottom: 10px;
+    }
+}
